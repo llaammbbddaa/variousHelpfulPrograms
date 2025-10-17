@@ -3,12 +3,17 @@ just a few programs that i use on my computers to simplify certain tasks
 
 ## clenter
 help keep the terminal a bit cleaner, especially if you are deep in directories and you dont want half of your screen to be the pwd message
+<br>
 use "clenter -i j" for the best one
 ### how to install
 sudo mv clenter.sh /usr/local/bin/clenter
+<br>
 sudo chmod +x /usr/local/bin/clenter
+<br>
 sudo nano /etc/bash.bashrc
+<br>
 *add this to the bottom -> alias clenter='source /usr/local/bin/clenter'*
+<br>
 exec bash
 
 ## cowPlay
